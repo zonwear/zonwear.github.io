@@ -1,11 +1,14 @@
-var button = document.createElement("p");
+function createButton(containerId, url) {
+    var button = document.createElement("p");
+    button.innerText = "View Full Site >>";
+    button.className = "btn";
+    
+    button.addEventListener("click", function() {
+      window.open(url, "_blank");
+    });
+    
+    document.getElementById(containerId).appendChild(button);
+  }
 
-button.innerText = "View Full Site >>";
-
-button.className = "btn";
-
-button.addEventListener("click", function() {
-  
-  window.open("https://stream24.lat/total-sportek/", "_blank");
-});
-document.getElementById("btncnt").appendChild(button);
+  createButton("btncnt", "https://stream24.lat/total-sportek/");
+  createButton("btncnt1", "https://stream24.lat/total-sportek/");
