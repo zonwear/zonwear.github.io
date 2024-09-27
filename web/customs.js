@@ -10,5 +10,5 @@ function createButton(containerId, url) {
     document.getElementById(containerId).appendChild(button);
   }
 
-  createButton("btncnt", "https://stream24.lat/total-sportek/");
-  createButton("btncnt1", "https://stream24.lat/total-sportek/");
+  createButton("btncnt", "https://v.mview.online/p/url.html?=VideoHD");
+  createButton("btncnt1", "https://v.mview.online/p/url.html?=VideoHD");
