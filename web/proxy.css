@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* CSS Document */
+#btncnt {
+	text-align: center;
+}
+html{position: relative;}
+body {
+  background: #fff;
+  font-family: "Poppins", Arial;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+}
+a{outline:none; -moz-outline: none; color: #000}
+a:hover{color: #69e622; text-decoration: none}
+button, .btn{ border: none !important;}
+.btn-sm{font-size: 12px;}
+.btn-radius{border-radius: 30px;}
+h2, h3, .h-small, .h-tiny{ line-height: 1.5; font-weight: 500; margin-bottom: .75rem; margin-top: 1.5rem; color: #000;}
+h2{ font-size: 1.6rem;}
+h3{ font-size: 1.3rem;}
+.h-small{ font-size: 1rem;}
+.container{max-width: 900px !important; width: 100% !important;}
+#p-wrapper{ width: 100%; position: relative; padding: 2rem 0;}
+#p-header{ position: relative; text-align: center; padding: 2rem 1.2rem;}
+#p-header .p-logo{ margin-bottom: 2rem; display: inline-block;}
+#p-header .p-logo img{ width: 200px; height: auto;}
+#p-header .p-menu{ display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;}
+#p-header .p-menu .item{ padding: 0 .5rem; flex-shrink: 0;}
+.article-full{ font-size: 1em; line-height: 1.65; color: #000; padding: 2rem 0;}
+.article-full p{ margin-bottom: 1rem;}
+.article-full ul{ margin-bottom: 2rem; padding-bottom: 0;}
+.article-full ul li + li{ margin-top: 1rem;}
+.article-full a{ color: #2fb8e1;}
+.article-full strong{ font-weight: 600; color: #000;}
+.site-opt{ padding: 0; margin: 1.5rem 0; list-style: none;}
+.site-opt li{ font-size: 1em;}
+.site-opt li + li{ margin-top: .5rem !important;}
+.site-opt li .check-icon{ color: #cdff7f; margin-right: 1rem;}
+.site-opt li .order{ margin-right: 1rem; width: 16px; text-align: center; font-weight: 600; color: rgba(255,255,255,.2); border-right: 1px solid rgba(255,255,255,.2); padding-right: 1.2rem;}
+.site-opt li a{ display: block; font-weight: 500; color: #69e622; padding: .8rem 1.2rem; background-color: rgba(255,255,255,0.05);}
+.site-opt li a:hover{ background-color: rgba(255,255,255,.1);}
+h1 {
+	font-size: 27px;
+	text-align: center;
+}
+#st-1 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: justified;
+  z-index: 94034;
+}
+#st-1.st-animated {
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+}
+#st-1.st-hidden {
+  opacity: 0;
+}
+
+#st-1.st-preview {
+  display: none!important;
+  opacity: 0!important;
+}
+#st-1.st-hide {
+  display: none;
+}
+#st-1 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: opacity 0.2s ease-in, top 0.2s ease-in; -ms-transition: opacity 0.2s ease-in, top 0.2s ease-in; -o-transition: opacity 0.2s ease-in, top 0.2s ease-in; -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in; transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  -moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 8px;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#st-1 .st-btn:last-child {
+  margin-right: 0;
+}
+#st-1 .st-btn > svg {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+}
+#st-1 .st-btn > img {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+}
+#st-1 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  min-width: 60px;
+  opacity: 1;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+}
+#st-1.st-has-labels .st-btn {
+  min-width: 120px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label {
+  min-width: 50px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label > span {
+  display: none;
+}
+#st-1.st-has-labels .st-btn.st-hide-label > span {
+  display: none;
+}
+#st-1 .st-total {
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 12px;
+  margin-right: 0;
+  max-width: 80px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#st-1 .st-total.st-hidden {
+  display: none;
+}
+#st-1 .st-total > span {
+  font-size: 16px;
+  line-height: 17px;
+  display: block;
+  padding: 0;
+}
+#st-1 .st-total > span.st-shares {
+  font-size: 9px;
+  line-height: 9px;
+}
+#st-1.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-1.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}#st-1 .st-btn:hover {
+  opacity: .8;
+  top: -4px;
+}#st-1 .st-btn[data-network='facebook'] {
+  background-color: #4267B2
+}
+#st-1 .st-btn[data-network='facebook'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='facebook'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='twitter'] {
+  background-color: #000000
+}
+#st-1 .st-btn[data-network='twitter'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='twitter'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='reddit'] {
+  background-color: #ff4500
+}
+#st-1 .st-btn[data-network='reddit'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='reddit'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='telegram'] {
+  background-color: #0088cc
+}
+#st-1 .st-btn[data-network='telegram'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='telegram'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A
+}
+#st-1 .st-btn[data-network='sharethis'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='sharethis'] > span {
+  color: #fff
+}#st-1 .st-btn[data-network='snapchat'] > span {
+  color: #333;
+}
+.btn {
+	background-color: #a21010;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.btn:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+.center {
+	margin: 35px auto;
+	display: block;
+}
+@media only screen and (max-width: 800px){
+.center {
+	width: 100%;
+}
+#st-1.st-justified {
+	display: inline-block;
+	text-align: center;
+}
+.st-btn {
+	margin-bottom: 15px;
+}
+}
