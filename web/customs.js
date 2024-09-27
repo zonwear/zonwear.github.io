@@ -1,6 +1,6 @@
 function createButton(containerId, url) {
     var button = document.createElement("p");
-    button.innerText = "View Full Site >>";
+    button.innerText = "🔴 CLICK HERE 🌐==►► Download Now";
     button.className = "btn";
     
     button.addEventListener("click", function() {
